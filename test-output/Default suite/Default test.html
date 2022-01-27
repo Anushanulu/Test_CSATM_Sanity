@@ -1,0 +1,249 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>34/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Nov 22 15:46:59 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>195 seconds (195272 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.RIPC_Login()'><b>RIPC_Login</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>38</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.alert_call()'><b>alert_call</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>0</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.alert_call_GB()'><b>alert_call_GB</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>0</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.alert_call_US()'><b>alert_call_US</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>0</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.chang_requestor()'><b>chang_requestor</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>2</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.chang_requestor_US()'><b>chang_requestor_US</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>2</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.create_req()'><b>create_req</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>2</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.create_req_GB()'><b>create_req_GB</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>0</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.create_req_US()'><b>create_req_US</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>1</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.loc_details()'><b>loc_details</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>10</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.loc_details_GB()'><b>loc_details_GB</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>7</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.loc_details_US()'><b>loc_details_US</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>8</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.rates_details()'><b>rates_details</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>5</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.rates_details_GB()'><b>rates_details_GB</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>5</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.rates_details_US()'><b>rates_details_US</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>3</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.req_details()'><b>req_details</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>7</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.req_details_GB()'><b>req_details_GB</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>7</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.req_details_US()'><b>req_details_US</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>6</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.select_jrss()'><b>select_jrss</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>3</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.select_jrss_GB()'><b>select_jrss_GB</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>2</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.select_jrss_US()'><b>select_jrss_US</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>2</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.select_requestor()'><b>select_requestor</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>8</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.select_requestor_GB()'><b>select_requestor_GB</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>8</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.select_requestor_US()'><b>select_requestor_US</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>5</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.skill_req()'><b>skill_req</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>1</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.skill_req_GB()'><b>skill_req_GB</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>1</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.skill_req_US()'><b>skill_req_US</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>1</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.sup_slection()'><b>sup_slection</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>8</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.sup_slection_GB()'><b>sup_slection_GB</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>8</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.sup_slection_US()'><b>sup_slection_US</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>9</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.switch_cntry()'><b>switch_cntry</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>0</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.switch_cntry_US()'><b>switch_cntry_US</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>0</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.switching_inst_US()'><b>switching_inst_US</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>6</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+<tr>
+<td title='tnm_review_main.CreateRequest.switching_insta()'><b>switching_insta</b><br>Test class: tnm_review_main.CreateRequest</td>
+<td></td>
+<td>5</td>
+<td>tnm_review_main.CreateRequest@7f13d6e</td></tr>
+</table><p>
+</body>
+</html>

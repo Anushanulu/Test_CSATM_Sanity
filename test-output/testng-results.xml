@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="34" passed="34">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="195272" started-at="2021-11-22T15:46:59 IST" finished-at="2021-11-22T15:50:14 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="195272" started-at="2021-11-22T15:46:59 IST" finished-at="2021-11-22T15:50:14 IST">
+      <class name="tnm_review_main.CreateRequest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tnm_review_main.CreateRequest@7f13d6e]" name="setup" is-config="true" duration-ms="9880" started-at="2021-11-22T15:46:59 IST" finished-at="2021-11-22T15:47:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="RIPC_Login()[pri:0, instance:tnm_review_main.CreateRequest@7f13d6e]" name="RIPC_Login" duration-ms="38338" started-at="2021-11-22T15:47:08 IST" finished-at="2021-11-22T15:47:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RIPC_Login -->
+        <test-method status="PASS" signature="create_req()[pri:1, instance:tnm_review_main.CreateRequest@7f13d6e]" name="create_req" duration-ms="2311" started-at="2021-11-22T15:47:47 IST" finished-at="2021-11-22T15:47:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_req -->
+        <test-method status="PASS" signature="skill_req()[pri:2, instance:tnm_review_main.CreateRequest@7f13d6e]" name="skill_req" duration-ms="1582" started-at="2021-11-22T15:47:49 IST" finished-at="2021-11-22T15:47:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skill_req -->
+        <test-method status="PASS" signature="select_requestor()[pri:4, instance:tnm_review_main.CreateRequest@7f13d6e]" name="select_requestor" duration-ms="8940" started-at="2021-11-22T15:47:51 IST" finished-at="2021-11-22T15:48:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_requestor -->
+        <test-method status="PASS" signature="select_jrss()[pri:5, instance:tnm_review_main.CreateRequest@7f13d6e]" name="select_jrss" duration-ms="3338" started-at="2021-11-22T15:48:00 IST" finished-at="2021-11-22T15:48:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_jrss -->
+        <test-method status="PASS" signature="req_details()[pri:6, instance:tnm_review_main.CreateRequest@7f13d6e]" name="req_details" duration-ms="7137" started-at="2021-11-22T15:48:03 IST" finished-at="2021-11-22T15:48:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- req_details -->
+        <test-method status="PASS" signature="loc_details()[pri:7, instance:tnm_review_main.CreateRequest@7f13d6e]" name="loc_details" duration-ms="10296" started-at="2021-11-22T15:48:10 IST" finished-at="2021-11-22T15:48:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loc_details -->
+        <test-method status="PASS" signature="alert_call()[pri:8, instance:tnm_review_main.CreateRequest@7f13d6e]" name="alert_call" duration-ms="6" started-at="2021-11-22T15:48:20 IST" finished-at="2021-11-22T15:48:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alert_call -->
+        <test-method status="PASS" signature="rates_details()[pri:9, instance:tnm_review_main.CreateRequest@7f13d6e]" name="rates_details" duration-ms="5424" started-at="2021-11-22T15:48:20 IST" finished-at="2021-11-22T15:48:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rates_details -->
+        <test-method status="PASS" signature="sup_slection()[pri:10, instance:tnm_review_main.CreateRequest@7f13d6e]" name="sup_slection" duration-ms="8866" started-at="2021-11-22T15:48:26 IST" finished-at="2021-11-22T15:48:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sup_slection -->
+        <test-method status="PASS" signature="switching_insta()[pri:11, instance:tnm_review_main.CreateRequest@7f13d6e]" name="switching_insta" duration-ms="5625" started-at="2021-11-22T15:48:35 IST" finished-at="2021-11-22T15:48:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switching_insta -->
+        <test-method status="PASS" signature="create_req_GB()[pri:12, instance:tnm_review_main.CreateRequest@7f13d6e]" name="create_req_GB" duration-ms="834" started-at="2021-11-22T15:48:40 IST" finished-at="2021-11-22T15:48:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_req_GB -->
+        <test-method status="PASS" signature="switch_cntry()[pri:13, instance:tnm_review_main.CreateRequest@7f13d6e]" name="switch_cntry" duration-ms="709" started-at="2021-11-22T15:48:41 IST" finished-at="2021-11-22T15:48:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switch_cntry -->
+        <test-method status="PASS" signature="skill_req_GB()[pri:14, instance:tnm_review_main.CreateRequest@7f13d6e]" name="skill_req_GB" duration-ms="1228" started-at="2021-11-22T15:48:42 IST" finished-at="2021-11-22T15:48:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skill_req_GB -->
+        <test-method status="PASS" signature="chang_requestor()[pri:15, instance:tnm_review_main.CreateRequest@7f13d6e]" name="chang_requestor" duration-ms="2780" started-at="2021-11-22T15:48:43 IST" finished-at="2021-11-22T15:48:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chang_requestor -->
+        <test-method status="PASS" signature="select_requestor_GB()[pri:16, instance:tnm_review_main.CreateRequest@7f13d6e]" name="select_requestor_GB" duration-ms="8413" started-at="2021-11-22T15:48:46 IST" finished-at="2021-11-22T15:48:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_requestor_GB -->
+        <test-method status="PASS" signature="select_jrss_GB()[pri:17, instance:tnm_review_main.CreateRequest@7f13d6e]" name="select_jrss_GB" duration-ms="2845" started-at="2021-11-22T15:48:54 IST" finished-at="2021-11-22T15:48:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_jrss_GB -->
+        <test-method status="PASS" signature="req_details_GB()[pri:18, instance:tnm_review_main.CreateRequest@7f13d6e]" name="req_details_GB" duration-ms="7826" started-at="2021-11-22T15:48:57 IST" finished-at="2021-11-22T15:49:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- req_details_GB -->
+        <test-method status="PASS" signature="loc_details_GB()[pri:19, instance:tnm_review_main.CreateRequest@7f13d6e]" name="loc_details_GB" duration-ms="7045" started-at="2021-11-22T15:49:05 IST" finished-at="2021-11-22T15:49:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loc_details_GB -->
+        <test-method status="PASS" signature="alert_call_GB()[pri:20, instance:tnm_review_main.CreateRequest@7f13d6e]" name="alert_call_GB" duration-ms="6" started-at="2021-11-22T15:49:12 IST" finished-at="2021-11-22T15:49:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alert_call_GB -->
+        <test-method status="PASS" signature="rates_details_GB()[pri:21, instance:tnm_review_main.CreateRequest@7f13d6e]" name="rates_details_GB" duration-ms="5023" started-at="2021-11-22T15:49:12 IST" finished-at="2021-11-22T15:49:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rates_details_GB -->
+        <test-method status="PASS" signature="sup_slection_GB()[pri:22, instance:tnm_review_main.CreateRequest@7f13d6e]" name="sup_slection_GB" duration-ms="8138" started-at="2021-11-22T15:49:17 IST" finished-at="2021-11-22T15:49:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sup_slection_GB -->
+        <test-method status="PASS" signature="switching_inst_US()[pri:23, instance:tnm_review_main.CreateRequest@7f13d6e]" name="switching_inst_US" duration-ms="6420" started-at="2021-11-22T15:49:25 IST" finished-at="2021-11-22T15:49:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switching_inst_US -->
+        <test-method status="PASS" signature="create_req_US()[pri:24, instance:tnm_review_main.CreateRequest@7f13d6e]" name="create_req_US" duration-ms="1618" started-at="2021-11-22T15:49:32 IST" finished-at="2021-11-22T15:49:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_req_US -->
+        <test-method status="PASS" signature="switch_cntry_US()[pri:25, instance:tnm_review_main.CreateRequest@7f13d6e]" name="switch_cntry_US" duration-ms="656" started-at="2021-11-22T15:49:33 IST" finished-at="2021-11-22T15:49:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switch_cntry_US -->
+        <test-method status="PASS" signature="skill_req_US()[pri:26, instance:tnm_review_main.CreateRequest@7f13d6e]" name="skill_req_US" duration-ms="1177" started-at="2021-11-22T15:49:34 IST" finished-at="2021-11-22T15:49:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skill_req_US -->
+        <test-method status="PASS" signature="chang_requestor_US()[pri:27, instance:tnm_review_main.CreateRequest@7f13d6e]" name="chang_requestor_US" duration-ms="2565" started-at="2021-11-22T15:49:35 IST" finished-at="2021-11-22T15:49:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chang_requestor_US -->
+        <test-method status="PASS" signature="select_requestor_US()[pri:28, instance:tnm_review_main.CreateRequest@7f13d6e]" name="select_requestor_US" duration-ms="5701" started-at="2021-11-22T15:49:38 IST" finished-at="2021-11-22T15:49:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_requestor_US -->
+        <test-method status="PASS" signature="select_jrss_US()[pri:29, instance:tnm_review_main.CreateRequest@7f13d6e]" name="select_jrss_US" duration-ms="2272" started-at="2021-11-22T15:49:43 IST" finished-at="2021-11-22T15:49:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_jrss_US -->
+        <test-method status="PASS" signature="req_details_US()[pri:30, instance:tnm_review_main.CreateRequest@7f13d6e]" name="req_details_US" duration-ms="6854" started-at="2021-11-22T15:49:46 IST" finished-at="2021-11-22T15:49:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- req_details_US -->
+        <test-method status="PASS" signature="loc_details_US()[pri:31, instance:tnm_review_main.CreateRequest@7f13d6e]" name="loc_details_US" duration-ms="8449" started-at="2021-11-22T15:49:53 IST" finished-at="2021-11-22T15:50:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loc_details_US -->
+        <test-method status="PASS" signature="alert_call_US()[pri:32, instance:tnm_review_main.CreateRequest@7f13d6e]" name="alert_call_US" duration-ms="10" started-at="2021-11-22T15:50:01 IST" finished-at="2021-11-22T15:50:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alert_call_US -->
+        <test-method status="PASS" signature="rates_details_US()[pri:33, instance:tnm_review_main.CreateRequest@7f13d6e]" name="rates_details_US" duration-ms="3766" started-at="2021-11-22T15:50:01 IST" finished-at="2021-11-22T15:50:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rates_details_US -->
+        <test-method status="PASS" signature="sup_slection_US()[pri:34, instance:tnm_review_main.CreateRequest@7f13d6e]" name="sup_slection_US" duration-ms="9065" started-at="2021-11-22T15:50:05 IST" finished-at="2021-11-22T15:50:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sup_slection_US -->
+      </class> <!-- tnm_review_main.CreateRequest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

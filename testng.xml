@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test_CSATM_Sanity_Script" verbose="1" >
+  <test name="Regression suite 1" >
+    <!-- testing-->
+    <classes>
+      <class name="tnm_review_GB_main.CreateRequest_GB"/>
+      <class name="tnm_review_IND_main.CreateRequest_IND"/> 
+      <class name="tnm_review_US_main.CreateRequest_US"/>
+    </classes>
+ </test>
+</suite>
